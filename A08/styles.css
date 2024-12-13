@@ -1,0 +1,49 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.actionContainer {
+    background-color: #4d4d4d;
+}
+
+.card {
+    width: 100% !important;
+}
+
+.filterGroup {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filter-group label {
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 56px;
+}
+
+.logoContainer {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.logoContainer img {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 24px;
+    }
+}
